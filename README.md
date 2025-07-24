@@ -1,4 +1,4 @@
-# TrioDev – Freelancing Agency Portfolio
+# TrioDev – Freelancing Agency
 
 Welcome to **TrioDev**, a sleek and modern freelancing agency website built with **React**, **TypeScript**, **TailwindCSS**, and **Vite**. Designed with a focus on minimalism, responsiveness, and smooth GSAP-powered animations, this portfolio showcases our services, work, testimonials, and client contact flow—all in one engaging package.
 
