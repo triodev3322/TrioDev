@@ -1,73 +1,176 @@
-# Welcome to your Lovable project
+# TrioDev – Freelancing Agency
 
-## Project info
+Welcome to **TrioDev**, a sleek and modern freelancing agency website built with **React**, **TypeScript**, **TailwindCSS**, and **Vite**. Designed with a focus on minimalism, responsiveness, and smooth GSAP-powered animations, this portfolio showcases our services, work, testimonials, and client contact flow—all in one engaging package.
 
-**URL**: https://lovable.dev/projects/c125b00b-85ff-4696-84ae-c3c818786f0d
+---
 
-## How can I edit this code?
+## 📌 Overview
 
-There are several ways of editing your application.
+TrioDev is a modern agency frontend built to demonstrate a clean and vibrant UI/UX, ideal for freelancers or small agencies who want to present their web development expertise professionally.
 
-**Use Lovable**
+### ✨ Features
+- 🧑‍💻 Clean hero section with illustration & CTA
+- 📊 Stats section with scroll animations
+- 📋 Services & Work portfolio
+- 🗣️ Testimonials from clients
+- 📞 Animated contact form popup
+- ⚡ Fully responsive and animated using GSAP
+- 🌐 SEO-ready with robots.txt
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c125b00b-85ff-4696-84ae-c3c818786f0d) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+| Technology      | Description                          |
+|----------------|--------------------------------------|
+| **React**       | UI Library for component architecture |
+| **TypeScript**  | Type-safe JavaScript for scalability |
+| **Vite**        | Fast build tool and dev server       |
+| **TailwindCSS** | Utility-first CSS framework          |
+| **GSAP**        | Animation library for scroll effects |
+| **ShadCN/UI**   | Accessible and themeable UI elements |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📁 Project Structure
 
-Follow these steps:
+```bash
+Directory structure:
+└── triodev3322-triodev.git/
+    ├── README.md
+    ├── components.json
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── postcss.config.js
+    ├── tailwind.config.ts
+    ├── tsconfig.app.json
+    ├── tsconfig.json
+    ├── tsconfig.node.json
+    ├── vite.config.ts
+    ├── public/
+    │   └── robots.txt
+    └── src/
+        ├── App.tsx
+        ├── index.css
+        ├── main.tsx
+        ├── vite-env.d.ts
+        ├── components/
+        │   ├── Contact.tsx
+        │   ├── Footer.tsx
+        │   ├── Header.tsx
+        │   ├── Hero.tsx
+        │   ├── Process.tsx
+        │   ├── Services.tsx
+        │   ├── Stats.tsx
+        │   ├── Testimonials.tsx
+        │   ├── Work.tsx
+        │   └── ui/
+        │       ├── accordion.tsx
+        │       ├── alert-dialog.tsx
+        │       ├── alert.tsx
+        │       ├── aspect-ratio.tsx
+        │       ├── avatar.tsx
+        │       ├── badge.tsx
+        │       ├── breadcrumb.tsx
+        │       ├── button.tsx
+        │       ├── calendar.tsx
+        │       ├── card.tsx
+        │       ├── carousel.tsx
+        │       ├── chart.tsx
+        │       ├── checkbox.tsx
+        │       ├── collapsible.tsx
+        │       ├── command.tsx
+        │       ├── context-menu.tsx
+        │       ├── dialog.tsx
+        │       ├── drawer.tsx
+        │       ├── dropdown-menu.tsx
+        │       ├── form.tsx
+        │       ├── hover-card.tsx
+        │       ├── input-otp.tsx
+        │       ├── input.tsx
+        │       ├── label.tsx
+        │       ├── menubar.tsx
+        │       ├── navigation-menu.tsx
+        │       ├── pagination.tsx
+        │       ├── popover.tsx
+        │       ├── progress.tsx
+        │       ├── radio-group.tsx
+        │       ├── resizable.tsx
+        │       ├── scroll-area.tsx
+        │       ├── select.tsx
+        │       ├── separator.tsx
+        │       ├── sheet.tsx
+        │       ├── sidebar.tsx
+        │       ├── skeleton.tsx
+        │       ├── slider.tsx
+        │       ├── sonner.tsx
+        │       ├── switch.tsx
+        │       ├── table.tsx
+        │       ├── tabs.tsx
+        │       ├── textarea.tsx
+        │       ├── toast.tsx
+        │       ├── toaster.tsx
+        │       ├── toggle-group.tsx
+        │       ├── toggle.tsx
+        │       ├── tooltip.tsx
+        │       └── use-toast.ts
+        ├── hooks/
+        │   ├── use-mobile.tsx
+        │   └── use-toast.ts
+        ├── lib/
+        │   └── utils.ts
+        └── pages/
+            ├── Index.tsx
+            └── NotFound.tsx
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Installation & Setup
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/triodev3322-triodev.git
+cd triodev3322-triodev
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will be live at http://localhost:5173
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📤 Deployment
+You can deploy this project easily on platforms like Vercel, Netlify, or GitHub Pages.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🤝 Contributing
+Contributions are welcome!
+If you'd like to improve the animations, fix bugs, or add new features:
 
-This project is built with:
+Fork the repo
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Create your feature branch
 
-## How can I deploy this project?
+Commit changes
 
-Simply open [Lovable](https://lovable.dev/projects/c125b00b-85ff-4696-84ae-c3c818786f0d) and click on Share -> Publish.
+Push and open a PR
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📬 Contact
+Want a similar website for your business?
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+📧 Reach out via triodev226@gmail.com
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## Built with ❤️ by TrioDev Team
+
