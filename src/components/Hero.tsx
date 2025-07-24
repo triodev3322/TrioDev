@@ -50,7 +50,7 @@ const Hero = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <h1 className="hero-title text-[42px] md:text-[58px] font-extrabold leading-tight text-text-primary">
-              We Get Your Business <br />
+              We Enable Your Business To<br />
               <span className="text-primary">Reach Globally</span>
             </h1>
 
