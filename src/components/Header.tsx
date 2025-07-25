@@ -34,7 +34,7 @@ const Header = () => {
           {/* Logo */}
           <div className="text-2xl font-extrabold tracking-wide text-gray-900 cursor-pointer">
             <a href="/" >
-              Trio<span className="text-primary">Dev</span>
+              <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
             </a>
           </div>
 
